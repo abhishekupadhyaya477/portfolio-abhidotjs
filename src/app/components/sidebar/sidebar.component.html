@@ -1,0 +1,14 @@
+<section id="navigation">
+     <div *ngFor="let element of sideNavs" >
+         <div>
+            <i [ngClass]="element.icon"></i>
+            {{element.title}}
+
+         </div>
+         
+         <!-- <div>
+            {{element.link}}
+         </div> -->
+      </div>
+      <!-- <i class="fas fa-spinner fa-spin"></i> -->
+</section>
